@@ -2,14 +2,43 @@ title: 'AUTONOMED'
 baseURL: 'https://autonomed.cl'
 languageCode: 'es-cl'
 
+# Navegación
+menu:
+  main:
+    - name: "Inicio"
+      url: "/"
+      weight: 1
+    - name: "Investigación"  
+      url: "/investigacion/"
+      weight: 2
+    - name: "Directorio"
+      url: "/directorio/"  
+      weight: 3
+    - name: "Análisis"
+      url: "/analisis/"
+      weight: 4
+    - name: "Contacto"
+      url: "/contacto/"
+      weight: 5
+
+# Parámetros del sitio
 params:
   description: 'Investigación sobre ecosistemas de medios nativos digitales en Chile'
   author: 'Equipo AUTONOMED'
-  
-  # Social
+  email: 'contacto@autonomed.cl'
   twitter: 'autonomed_cl'
   github: 'renejara-hub'
-  email: 'contacto@autonomed.cl'
-  
-  # Footer
   copyright: '© 2025 AUTONOMED - Ecosistemas de Medios Digitales Chile'
+  
+  # Colores AUTONOMED
+  primary_color: '#4f46e5'
+  secondary_color: '#7c3aed'
+
+# Taxonomias en español  
+taxonomies:
+  tag: etiquetas
+  category: categorias
+
+# Configuración adicional
+paginate: 10
+enableEmoji: true
