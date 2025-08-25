@@ -1,4 +1,15 @@
-baseURL: "http://hugo-quickstart-template.netlify.com"
-languageCode: "en-us"
-title: "Netlify + Hugo Quickstart"
-theme: "netlify-basic"
+title: 'AUTONOMED'
+baseURL: 'https://autonomed.cl'
+languageCode: 'es-cl'
+
+params:
+  description: 'Investigación sobre ecosistemas de medios nativos digitales en Chile'
+  author: 'Equipo AUTONOMED'
+  
+  # Social
+  twitter: 'autonomed_cl'
+  github: 'renejara-hub'
+  email: 'contacto@autonomed.cl'
+  
+  # Footer
+  copyright: '© 2025 AUTONOMED - Ecosistemas de Medios Digitales Chile'
